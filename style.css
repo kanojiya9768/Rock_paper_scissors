@@ -63,3 +63,23 @@ img:hover{
 h1{
     transition: .2s;
 }
+
+
+
+
+
+@media (max-width:800px) {
+    .game_container{
+        width: 340px;
+        height: 340px;
+    }
+
+    .options{
+        display: flex;
+        gap: 45px;
+    }
+
+    h1{
+        font-size: 23px;
+    }
+}
