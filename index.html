@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissors</title>
+    <link rel="shortcut icon" href="https://i.pinimg.com/originals/fe/f5/f7/fef5f755502a3096bf0f75b516aac804.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game_container">
+        <div class="options">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0ephlYvCIvcFpW8pIHU5ObGbXM37yBaYEJa0qaa65Td35_5BKLpIwoiaVZ-3bNgrafZs&usqp=CAU"
+                alt="rock" id="rock">
+            <img src="https://cdn.pixabay.com/photo/2022/08/11/16/49/papers-7379900_1280.png" alt="paper" id="paper">
+            <img src="https://cdn-icons-png.flaticon.com/512/2810/2810354.png" alt="scissor" id="scissor">
+        </div>
+
+        <div class="leaderBoard">
+            <h1 id="user_score">Play To Know Scores</h1>
+            <h1 id="computer_score"></h1>
+        </div>
+    </div>
+
+
+    <audio src="audio/Lose_audio.mp3" id="lose_sound"></audio>
+    <audio src="audio/win_audio.mp3" id="win_sound"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
